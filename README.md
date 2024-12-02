@@ -35,7 +35,17 @@ GET /health
 ```
 
 ## Installation
+Run the following steps by launching a terminal and after moving to your working directory
 
+### Prerequsites
+```
+git clone git@github.com:venky999/go-rest-api.git
+cd go-rest-api/
+
+export POSTGRES_USER=<Any Postgress User>
+export POSTGRES_PASSWORD=<Any Postgress Password>
+export POSTGRES_DB=<Any Postgress DB Name>
+```
 ### 1. Build
 ```
 make build
@@ -48,15 +58,7 @@ make publish
 ```
 make run
 ```
-### 4. Stop
-```
-make stop
-```
-### 5. Cleanup
-```
-make cleanup
-```
-### 6. Testing
+### 4. Testing
 
 ```bash
 # Transaction Request
@@ -66,6 +68,15 @@ make cleanup
 # Response
 {"Success"}             
 ```
+### 5. Stop
+```
+make stop
+```
+### 6. Cleanup
+```
+make cleanup
+```
+
 ## Networking
 
 | Port | Description |

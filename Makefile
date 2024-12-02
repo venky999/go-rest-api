@@ -1,6 +1,6 @@
-DOCKER_IMAGE_TAG = $(git describe --abbrev=0 --tags)
+DOCKER_IMAGE_TAG := $(shell git describe --abbrev=0 --tags)
 DOCKER_REGISTRY ?= docker.io
-DOCKER_IMAGE_NAME ?= clouina/go-rest-api
+DOCKER_IMAGE_NAME ?= cloudina/go-rest-api
 
 .PHONY: build_local_binary
 build_local_binary: 
