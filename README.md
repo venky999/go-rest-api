@@ -37,20 +37,25 @@ GET /health
 ## Installation
 
 ### 1. Build
+```
 make build
-
+```
 ### 2. Publish
-make push
-
+```
+make publish
+```
 ### 3. Run
+```
 make run
-
+```
 ### 4. Stop
+```
 make stop
-
+```
 ### 5. Cleanup
+```
 make cleanup
-
+```
 ### 6. Testing
 
 ```bash
