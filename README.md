@@ -3,6 +3,14 @@
 ## Introduction
 REST API written in go with postgres database
 
+## Architecture
+
+### Local
+![alt Local Architecture](./img/current_architecture.png)
+
+### Cloud(Next Iteration)
+![alt Cloud Architecture](./img/cloud_architecture.png)
+
 ## Features
 -   Insert transaction into a DB using UUID
 -   Dockerized and Working locally using docker compose
